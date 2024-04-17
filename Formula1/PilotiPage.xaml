@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:controls="clr-namespace:Formula1"
+             x:Class="Formula1.PilotiPage"
+             Title="PilotiPage">
+
+    <Grid RowDefinitions="100,*">
+
+        <Grid Grid.Row="0">
+            <controls:YearControl
+                HorizontalOptions="Center"
+                VerticalOptions="Center"
+                x:Name="yearControl"/>
+
+        </Grid>
+        <CollectionView ItemsSource="{Binding drivers}" Grid.Row="1" x:Name="collectionViewDrivers">
+            <CollectionView.ItemTemplate>
+                <DataTemplate>
+                    <Grid RowDefinitions="3*,2*" Padding="10,10,10,10">
+                        <Label Grid.Row="0" Text="{Binding givenName}"/>
+                        <Label Grid.Row="1" Text="{Binding dateOfBirth}" HorizontalTextAlignment="Start"/>
+                    </Grid>
+                </DataTemplate>
+            </CollectionView.ItemTemplate>
+        </CollectionView>
+    </Grid>
+</ContentPage>
