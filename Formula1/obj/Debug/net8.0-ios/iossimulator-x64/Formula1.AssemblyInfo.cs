@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Formula1")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+ba6be07eff9dab75fa5d76c9ff39b0df0eec8c68")]
 [assembly: System.Reflection.AssemblyProductAttribute("Formula1")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Formula1")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

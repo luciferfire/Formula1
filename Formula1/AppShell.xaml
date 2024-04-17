@@ -8,20 +8,7 @@
     Shell.ForegroundColor="Black"
     Title="Formula1">
 
-    <Shell.FlyoutHeader>
-        <ContentView HeightRequest="200">
-            <Grid>
-                <Image Aspect="AspectFill"
-                       Source="img"
-                       Opacity="0.7"/>
-                <Label Text="Menu"
-                       FontAttributes="Bold"
-                       TextColor="White"
-                       HorizontalTextAlignment="Center"
-                       VerticalTextAlignment="Center"/>
-            </Grid>
-        </ContentView>
-    </Shell.FlyoutHeader>
+
 
     <FlyoutItem Title="Piloti">
         <Tab>
@@ -34,16 +21,5 @@
         </Tab>
     </FlyoutItem>
 
-    <Shell.FlyoutFooter>
-        <ContentView HeightRequest="100">
-            <Grid BackgroundColor="Black" Opacity="0.9">
-                <Label Text="Made by Ciro"
-                       FontAttributes="Bold"
-                       TextColor="white"
-                       FontSize="20"
-                       HorizontalTextAlignment="Center"
-                       VerticalTextAlignment="Center"/>
-            </Grid>
-        </ContentView>
-    </Shell.FlyoutFooter>
+
 </Shell>
